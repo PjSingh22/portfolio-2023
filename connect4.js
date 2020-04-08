@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var playerOne = prompt("Player One: Enter your name, you will be blue!");
 var playerOneColor = 'rgb(60, 136, 250)';
 
@@ -110,3 +112,5 @@ $('.board button').on('click', function(){
     $('h3').text(playerTwo+" it is your turn, pick a column to drop your chip!");
   }
 })
+
+});
