@@ -1,0 +1,42 @@
+.top{
+  background-color: #212121;
+  color: white;
+}
+
+.logo{
+  width: 10%;
+  }
+
+body{
+  background-image: url('background2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.carousel {
+  width: 30%;
+}
+
+.jumbotron{
+  width: 75%;
+}
+.carousel {
+  margin: 1.5rem;
+}
+.carousel-inner {
+  height: auto;
+}
+
+.carousel-control-prev {
+  margin-left: -50px;
+}
+
+.carousel-control-next {
+  margin-right: -50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
