@@ -2,238 +2,128 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Johnny Nguyen</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a7c42df77.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
 <!-- NAVBAR -->
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
-  <a class="navbar-brand" href="#">WELCOME</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#resume">Resume</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#project">Projects</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#certification">Certifications</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<br id="home">
+<div class="navigation">
+  <h4><a href="#home" id="link">HOME</a></h4>
+  <h4><a href="#project" id="link">PROJECTS</a></h4>
+  <h4><a href="#certification" id="link">CERTIFICATIONS</a></h4>
+  <h4><a href="#contact" id="link">CONTACT</a></h4>
+</div>
+<hr>
 
 
-<!-- NAME INTRO -->
-    <p></p><br><br><br><br><br>
-    <div class="container">
-      <div class="jumbotron">
+<!-- NAME -->
+<br>
+<h1 id="name">JOHNNY.NGUYEN</h1>
+
+<!-- HOME -->
+<div class="home">
+    <h5>Hello! My name is Johnny Nguyen, and I am a recent graduate from UC Santa Cruz with a bachelor's degree in Technology and Information Management. As an aspiring front end developer, I constantly find myself curious as to how different aspects of technology come together to make one coherent function. This is what keeps me up at night, the belief of the power of programming to transform and improve the lives of people around the world.</h5>
+    <br>
+    <h5>I have a diverse set of skills, ranging from design, to HTML + CSS + JavaScript, all the way to technology-focused creativity, strong communication, and engaging presentation skills gained through my teamwork focused major within the Baskin School of Engineering.</h5>
+    <br><br>
+    <center><img src="headshot.jpg" alt="Avatar" id="headshot"></center>
+    <br>
+    <center>
+      <a href="Resume_Nguyen.pdf" class="btn btn-dark" id="button" target="_blank"><strong>RESUME</strong></a>
+    </center>
+</div>
+
+<!-- PROJECTS -->
+<h1 class="title" id="project">PROJECTS</h1>
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-6">
+        <h1>JJ Noodles</h1>
+        <i class="fas fa-utensils fa-6x"></i>
+        <p>Developed an application for JJ Noodles, a San Jose based pop-up shop dedicated to serving the best lobster noodles in the Bay Area, to provide responsiveness and efficiency in taking customer orders.</p>
+        <h5>Tech Used:</h5>
+        <div class="row">
+          <div class="col-6">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Bootstrap</li>
+              <li>jQuery</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+        </div>
         <center>
-          <h1 id="name">Johnny Nguyen</h1>
-          <p></p>
-          <h6>Welcome to my website! A place for me to share a little bit about myself.</h6>
-          <p></p>
+          <a href="https://jjnoodles-d4df0.web.app/" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
+        </center>
+      </div>
+      <div class="col-6">
+        <h1>UCSC UX Design</h1>
+        <i class="fas fa-graduation-cap fa-6x"></i>
+        <p>Redesigned the UCSC Baskin School of Engineering Undergraduate website with a more simplified approach, while still providing responsiveness and efficiency, to address the needs of the users.</p>
+        <h5>Skills Learned:</h5>
+        <div class="row">
+          <div class="col-6">
+            <ul>
+              <li>UX Design</li>
+              <li>Design Research</li>
+              <li>User Studies</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Prototyping</li>
+            </ul>
+          </div>
+        </div>
+        <center>
+          <a href="https://xd.adobe.com/view/556923c0-1ff5-4a57-7971-6f88da0f99d4-2358/?fullscreen" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
         </center>
       </div>
     </div>
-
-
-<!-- ABOUT -->
-  <p></p><br><br><br><br><br><br><br><br><br><br><br><br>
-  <br id="about">
-<div class="background">
-  <hr><br>
-  <h1 id="title">About Me</h1>
-  <div class="container">
-    <div class="jumbotron" id="jumbo">
-      <center>
-        <img src="headshot.jpg" alt="Avatar" id="headshot">
-      </center>
-      <h2>A little bit about myself...</h2><br>
-      <h4>Education:</h4>
-      <p>I have recently completed my curriculum in Technology and Information Management at the University of California, Santa Cruz, and have obtained my Bachelor's of Science degree as of June of 2020. As a T.I.M student, I can offer the skills and experience in technology-focused creativity, strong communication, and engaging presentation skills gained through my teamwork focused major within the Baskin School of Engineering at UCSC. </p>
-      <br>
-      <h4>Interests:</h4>
-      <p>I love coding. Ever since writing my first program, I became obsessed with the idea of using logic and creativity to create and solve practical problems. Along with my computer-centered education at UC Santa Cruz, I have balanced school work with multiple coding bootcamps on the Udemy learning platform. Through learning HTML/CSS, JavaScript, Python, SQL, and so on, I constantly find myself curious as to how these different aspects of technology come together to make one coherent function. This is what keeps me up at night, the belief of the power of programming to transform and improve the lives of people around the world.</p>
-      <br>
-      <h4>Hobbies:</h4>
-      <p>Wake up, gym, sleep, repeat. Fitness has been a passion of mine over the last few years, where I have become obsessed with the idea of pushing myself to new heights, both physically and mentally. Everyday, when I walk into that weight room, the adversities of everyday life go away, and my focus is only geared towards one thing, my training. Many of the lessons I took away from fitness have transitioned into both my professional and personal life, where if you’re not hard on yourself, someone else will be, and the amount of reward you get only comes from how much work you put in. Stay positive, stay consistent, and trust the process!</p>
-    </div>
-  </div>
-
-
-<!-- RESUME -->
-<br id="resume">
-<hr><br>
-<h1 id="title">Resume</h1>
-<div class="container">
-  <div class="jumbotron" id="jumbo">
-    <h2>Dear Recruiters...</h2>
-    <p>As a recent graduate at UC Santa Cruz with a bachelor's degree in Technology and Information Management, I am hungry to learn, eager to expand my professional horizons and technical skills, and wishful to help a company further succeed.</p>
-    <br>
-    <center>
-      <img src="Resume_Nguyen.jpg" width= 70%>
-      <p></p>
-      <h6>View and download the PDF file of my resume by clicking <a href="Resume_Nguyen.pdf" target="_blank">here</a>.</h6>
-    </center>
-  </div>
-</div>
-
-
-<!-- PROJECTS -->
-<br id="project">
-<hr><br>
-<h1 id="title">Projects</h1>
-
-<!-- Front End -->
-<div class="container">
-  <div class="jumbotron" id="jumbo">
-    <center><u><h2><strong>Front-End Web Development Projects</strong></h2></u></center>
-    <br>
-    <div class="row">
-      <div class="col-6 d-flex align-items-stretch">
-        <div class="card" style="width: 25rem;">
-          <img class="card-img-top" src="jj.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title"><strong>JJ Noodles</strong></h4>
-            <p class="card-text">San Jose based pop-up shop dedicated to serving the best lobster noodles in the Bay Area.</p>
-            <h6>Tech Used:</h6>
-            <div class="row">
-              <div class="col-6">
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
-              </div>
-              <div class="col-6">
-                <ul>
-                  <li>Bootstrap</li>
-                  <li>jQuery</li>
-                  <li>Firebase</li>
-                </ul>
-              </div>
-            </div>
-            <center>
-              <a href="https://jjnoodles-d4df0.web.app/" class="btn btn-dark" id="button" target="_blank">Live Preview</a>
-            </center>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 d-flex align-items-stretch">
-        <div class="card" style="width: 25rem;">
-          <img class="card-img-top" src="marvel.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title"><strong>Marvel Blog</strong></h4>
-            <p class="card-text">A place for me to share a little bit about my favorite Marvel Cinematic Universe Movies.</p>
-            <h6>Tech Used:</h6>
-            <div class="row">
-              <div class="col-6">
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
-              </div>
-              <div class="col-6">
-                <ul>
-                  <li>Bootstrap</li>
-                  <li>jQuery</li>
-                </ul>
-              </div>
-            </div>
-            <center>
-              <a href="https://marvel-blog-5e6e0.web.app/" class="btn btn-dark" id="button" target="_blank">Live Preview</a>
-            </center>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Class projects -->
-
-<div class="container">
-  <div class="jumbotron" id="jumbo">
-    <center><u><h2><strong>Class Projects</strong></h2></u></center>
-    <h3>UC Santa Cruz BSOE Undergraduate Website UX Design</h3>
-    <p>January 2020 - March 2020</p>
-    <ul>
-      <li>Redesigned the BSOE website with a more simplified approach, while still providing responsiveness and efficiency, to address the needs of the users.</li>
-      <li>Conducted rounds of evaluative user studies with low and high fidelity prototypes.</li>
-      <li>Produced a slide deck and design research report to present to potential stakeholders.</li>
-    </ul>
-    <p>View our slide deck <a href="UXslide.pdf" target="_blank">here</a> and check out the high fidelity prototype by clicking <a href="https://xd.adobe.com/view/556923c0-1ff5-4a57-7971-6f88da0f99d4-2358/?fullscreen" target="_blank">here</a>.</p>
-    <br><hr>
-    <h3>Management of Technology Research & Design</h3>
-    <p>September 2019 - March 2020</p>
-    <ul>
-      <li>Established the vision, mission, and relevant technology of our product/market, and competitive strategy.</li>
-      <li>Developed alternative concepts of our product through conceptual design.</li>
-      <li>Performed economic and financial modeling to determine the financial feasibility.</li>
-      <li>Created a supply chain network to produce and distribute our product.</li>
-    </ul>
-    <p>View our slide deck <a href="CSEslide.pdf" target="_blank">here</a> and check out our highlighted report by clicking <a href="desa.pdf" target="_blank">here</a>.</p>
   </div>
 </div>
 
 
 <!-- CERTIFICATIONS -->
-<br id="certification">
-<hr><br>
-<h1 id="title">Certifications</h1>
+<h1 class="title" id="certification">CERTIFICATIONS</h1>
 <div class="container">
-  <div class="jumbotron" id="jumbo">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-6">
+        <h2>React.js Certification</h2>
+        <p>Udemy React - The Complete Guide Bootcamp</p>
+        <br><h1>*IN PROGRESS*</h1>
+      </div>
+      <div class="col-6">
+        <h2>Web Developer Certification</h2>
+        <p>Udemy Full Stack Web Developer Bootcamp</p>
+        <img src="webcert.jpg" width=50% >
+      </div>
+    </div>
+    <br><br>
     <div class="row">
       <div class="col-6">
         <h2>Python 3 Certification</h2>
-        <p>Udemy Complete Python Coding Bootcamp</p>
+        <p>Udemy Complete Python Coding Bootcamp 2020</p>
+          <img src="python.jpg" width=50% >
       </div>
       <div class="col-6">
-        <center>
-          <img src="python.jpg" width=80% >
-        </center>
-      </div>
-    </div>
-    <br>
-    <hr>
-    <div class="row">
-      <div class="col-6">
-        <h2>SQL Certification</h2>
-        <p>Udemy Complete SQL Bootcamp</p>
-      </div>
-      <div class="col-6">
-        <center>
-          <img src="SQL.jpg" width=80%>
-        </center>
-      </div>
-    </div>
-    <br>
-    <hr>
-    <div class="row">
-      <div class="col-6">
-        <h2>Web Developer Certification</h2>
-        <p>Udemy Python and Django Full Stack Web Developer Bootcamp</p>
-      </div>
-      <div class="col-6">
-        <center>
-          <img src="webcert.jpg" width=80%>
-        </center>
+        <h2>PostgreSQL Certification</h2>
+        <p>Udemy The Complete SQL Bootcamp 2020</p>
+        <img src="SQL.jpg" width=50% >
       </div>
     </div>
   </div>
@@ -241,50 +131,40 @@
 
 
 <!-- CONTACT -->
-<br id="contact">
-<hr><br>
-<h1 id="title">Contact</h1>
+<h1 class="title" id="contact">CONTACT</h1>
 <div class="container">
-  <div class="jumbotron" id="jumbo">
-    <center>
-      <h2>Thanks for viewing my website!</h2>
-    </center>
-    <br>
-    <hr>
-    <p>The fact you would take the time to learn more about me, or were simply just curious, means a lot to me. Let me know if you have any questions, concerns, or are interested in working together! Feel free to contact me at:</p>
-    <br>
-    <div class="row">
-      <div class="col-4">
-        <center>
-          <br>
-          <img src="phone.png" width=60%><p></p>
-          <h6>1(408)250-4182</h6>
-        </center>
-      </div>
-      <div class="col-4">
-        <center>
-          <br>
-          <img src="email.png" width=60%><p></p>
-          <h6>Email me at <a href="mailto:johnnynguyentech@gmail.com">johnnynguyentech@gmail.com</a></h6>
-        </center>
-      </div>
-      <div class="col-4">
-        <center>
-          <br>
-          <img src="linked.png" width=60%><p></p>
-          <h6>View my <a href="https://www.linkedin.com/in/johnny-nguyen-tech/" target="_blank">LinkedIn</a> profile.</h6>
-        </center>
-      </div>
-    </div>
+  <div class="jumbotron">
+      <h2>Thanks for viewing my portfolio!</h2>
+      <p>Let me know if you have any questions, concerns, or are interested in working together! Feel free to contact me at:</p>
+      <br>
+        <div class="row" id="icons">
+          <div class="col-3">
+            <i class="fas fa-phone-square fa-8x"></i>
+            <p>1(408)250-4182</p>
+          </div>
+          <div class="col-3">
+            <i class="fas fa-envelope-square fa-8x"></i>
+            <p><a href="mailto:johnnynguyentech@gmail.com" id="link">Email</a></p>
+          </div>
+          <div class="col-3">
+            <i class="fab fa-linkedin fa-8x"></i>
+            <p><a href="https://www.linkedin.com/in/johnny-nguyen-tech/" id="link" target="_blank">LinkedIn</a></p>
+          </div>
+          <div class="col-3">
+            <i class="fab fa-github-square fa-8x"></i>
+            <p><a href="https://github.com/johnnynguyentech" id="link" target="_blank">GitHub</a></p>
+          </div>
+        </div>
   </div>
 </div>
 <br>
-</div>
+
+
 
 <!-- JS SCRIPT -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <!-- CLOSING TAGS -->
   </body>
