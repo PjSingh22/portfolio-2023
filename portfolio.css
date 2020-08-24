@@ -103,6 +103,9 @@ a {
   .navigation{
     justify-content: center;
   }
+  #bio{
+    font-size: 120%;
+  }
 }
 
 
