@@ -110,7 +110,7 @@ a {
 
 
 /* ON MAC */
-@media (max-width: 1500px) {
+@media (min-width: 600px) and (max-width: 1500px) {
   #name {
     font-size: 550%;
     margin-top: 0%;
