@@ -106,6 +106,9 @@ a {
   #bio{
     font-size: 120%;
   }
+  body {
+    background-image: url('background2.jpg');
+  }
 }
 
 
