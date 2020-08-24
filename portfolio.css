@@ -9,13 +9,6 @@ body {
   background-size: cover;
 }
 
-#navbar{
-  background-color: #030f2b !important;
-  box-shadow: 0 2px 2px 2px rgba(0,0,0,.25);
-  font-family: 'Montserrat', sans-serif;
-  color: #d1e3ff !important;
-}
-
 .navigation {
   font-family: 'Montserrat', sans-serif;
   color: #d1e3ff !important;
@@ -109,5 +102,37 @@ a {
   }
   .navigation{
     justify-content: center;
+  }
+}
+
+
+/* ON MAC */
+@media (max-width: 1500px) {
+  #name {
+    font-size: 550%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+  }
+  #headshot{
+    border-radius: 50%;
+    height: 150px
+  }
+  .home{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #bio{
+    font-size: 90%;
+  }
+  .navigation {
+    margin-left: 24%;
+    margin-right: 24%;
+  }
+  hr {
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+  #link {
+    font-size: 90%;
   }
 }
