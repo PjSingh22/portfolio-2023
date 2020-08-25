@@ -75,6 +75,10 @@ h3 {
   font-family: 'Manrope', sans-serif;
 }
 
+#cert{
+  width: 50%;
+}
+
 ul {
   text-align: left;
 }
@@ -93,24 +97,41 @@ a {
 
 /* ON MOBILE */
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (min-device-width: 300px)
+  and (max-device-width: 812px) {
+    .navigation {
+      margin-left: 13%;
+      margin-right: 13%;
+    }
+    hr {
+      margin-left: 11%;
+      margin-right: 11%;
+    }
+    #link{
+      font-size: 120%;
+    }
     .home {
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 14%;
+      margin-right: 14%;
     }
     .jumbotron{
       width: 95%;
-    }
-    .navigation{
-      justify-content: center;
+      font-size: 150%;
     }
     #bio{
-      font-size: 130%;
+      font-size: 200%;
     }
     body {
       background-image: url('background2.jpg');
+    }
+    strong {
+      font-size: 200%;
+    }
+    #rowspace{
+      margin-top: 6%;
+    }
+    #cert{
+      width: 80%;
     }
 }
 
