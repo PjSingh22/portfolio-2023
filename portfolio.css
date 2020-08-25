@@ -92,28 +92,32 @@ a {
 
 
 /* ON MOBILE */
-@media (max-width: 499px) {
-  .home {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .jumbotron{
-    width: 90%;
-  }
-  .navigation{
-    justify-content: center;
-  }
-  #bio{
-    font-size: 120%;
-  }
-  body {
-    background-image: url('background2.jpg');
-  }
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .home {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .jumbotron{
+      width: 95%;
+    }
+    .navigation{
+      justify-content: center;
+    }
+    #bio{
+      font-size: 130%;
+    }
+    body {
+      background-image: url('background2.jpg');
+    }
 }
 
 
+
 /* ON MAC */
-@media (min-width: 1100px) and (max-width: 1500px) {
+@media (min-device-width: 1100px) and (max-device-width: 1600px) {
   #name {
     font-size: 550%;
     margin-top: 0%;
