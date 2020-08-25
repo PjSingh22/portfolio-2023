@@ -2,6 +2,10 @@ html{
   scroll-behavior: smooth;
 }
 
+#rowspace{
+  margin-top: 20%;
+}
+
 body {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
