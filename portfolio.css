@@ -95,10 +95,10 @@ a {
 }
 
 
-/* ON MOBILE */
+/* ON MOBILE AND TABLET */
 @media only screen
   and (min-device-width: 300px)
-  and (max-device-width: 812px) {
+  and (max-device-width: 900px) {
     .navigation {
       margin-left: 13%;
       margin-right: 13%;
@@ -138,7 +138,7 @@ a {
 
 
 /* ON MAC */
-@media (min-device-width: 1100px) and (max-device-width: 1600px) {
+@media (min-device-width: 1000px) and (max-device-width: 1600px) {
   #name {
     font-size: 550%;
     margin-top: 0%;
