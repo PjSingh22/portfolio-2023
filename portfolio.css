@@ -94,6 +94,13 @@ a {
   margin-right: auto;
 }
 
+/* MOBILE */
+@media only screen
+  and (max-device-width: 500px) {
+    #rowspace{
+      margin-top: 6%;
+    }
+}
 
 /* ON MOBILE AND TABLET */
 @media only screen
@@ -126,9 +133,6 @@ a {
     }
     strong {
       font-size: 200%;
-    }
-    #rowspace{
-      margin-top: 6%;
     }
     #cert{
       width: 80%;
