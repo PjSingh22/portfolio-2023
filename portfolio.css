@@ -98,7 +98,7 @@ a {
 /* ON MOBILE AND TABLET */
 @media only screen
   and (min-device-width: 300px)
-  and (max-device-width: 900px) {
+  and (max-device-width: 999px) {
     .navigation {
       margin-left: 13%;
       margin-right: 13%;
