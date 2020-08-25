@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 
 .navigation {
@@ -127,9 +128,6 @@ a {
     }
     #bio{
       font-size: 200%;
-    }
-    body {
-      background-image: url('background2.jpg');
     }
     strong {
       font-size: 200%;
