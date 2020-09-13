@@ -98,6 +98,9 @@ a {
 /* MOBILE */
 @media only screen
   and (max-device-width: 500px) {
+    body {
+      background-attachment: initial;
+    }
     #rowspace{
       margin-top: 6%;
     }
@@ -107,6 +110,9 @@ a {
 @media only screen
   and (min-device-width: 300px)
   and (max-device-width: 999px) {
+    body {
+      background-attachment: initial;
+    }
     .navigation {
       margin-left: 13%;
       margin-right: 13%;
@@ -123,7 +129,6 @@ a {
       margin-right: 14%;
     }
     .jumbotron{
-      width: 95%;
       font-size: 150%;
     }
     #bio{
