@@ -105,6 +105,9 @@ a {
     #rowspace{
       margin-top: 6%;
     }
+    #headshot{
+      height: 400px
+    }
 }
 
 /* ON MOBILE AND TABLET */
