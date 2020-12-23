@@ -1,287 +1,260 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7a7c42df77.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-
-<!-- NAVBAR -->
-<br id="home">
-<div class="navigation">
-  <h4><a href="#home" id="link">HOME</a></h4>
-  <h4><a href="#project" id="link">PROJECTS</a></h4>
-  <h4><a href="#certification" id="link">CERTIFICATIONS</a></h4>
-  <h4><a href="#contact" id="link">CONTACT</a></h4>
-</div>
-<hr>
-
-
-<!-- NAME -->
-<br>
-<h1 id="name">JOHNNY.NGUYEN</h1>
+<head>
+  <meta charset="utf-8">
+  <title>Johnny Nguyen | Frontend Developer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="icon.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7a7c42df77.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
 <!-- HOME -->
+<br id="home">
+<h1 class="name">JOHNNY NGUYEN</h1>
 <div class="home">
-    <h5 id="bio">Hello! My name is Johnny Nguyen, and I am a recent graduate from UC Santa Cruz with a bachelor's degree in Technology and Information Management. As a front end developer, I have a diverse set of skills, ranging from digital and inbound marketing, to HTML + CSS + JavaScript, all the way to technology-focused creativity and strong communication skills gained through my teamwork focused major within the Baskin School of Engineering.</h5>
-    <br>
-    <h5 id="bio">With a passion for building scalable UI applications using the latest web technologies, I constantly find myself curious as to how different aspects of technology come together to make one coherent function. This is what keeps me up at night, the belief of the power of programming to transform and improve the lives of people around the world.</h5>
-    <br>
-    <center><img src="headshot.jpg" alt="Avatar" id="headshot"></center>
-    <br>
-    <center>
-      <a href="Resume_Nguyen.pdf" class="btn btn-dark" id="button" target="_blank"><strong>RESUME</strong></a>
-    </center>
+  <h5 id="bio">Hello! My name is Johnny Nguyen, and I am a recent graduate from UC Santa Cruz with a bachelor's degree in Technology and Information Management. As a front end developer, I have a diverse set of skills, ranging from digital and inbound marketing, to HTML + CSS + JavaScript, all the way to technology-focused creativity and strong communication skills gained through my teamwork focused major within the Baskin School of Engineering.</h5>
+  <h5 id="bio">With a passion for building scalable UI applications using the latest web technologies, I constantly find myself curious as to how different aspects of technology come together to make one coherent function. This is what keeps me up at night, the belief of the power of programming to transform and improve the lives of people around the world.</h5>
+  <center>
+    <div class="headshotWrapper">
+      <img src="headshot.jpg" alt="Avatar" id="headshot">
+    </div>
+    <a href="Resume_Nguyen.pdf" target="_blank"><button id="resumeBtn">RESUME</button></a>
+    <div class="seeMoreBtn">
+      <a href="#skills"><i class="fas fa-angle-double-down fa-4x" id="moreBtn"></i></a>
+    </div>
+  </center>
 </div>
+
+<!-- NAVBAR -->
+<div class="navigation">
+    <h4 id="link"><a href="#home">HOME</a></h4>
+    <h4 id="link"><a href="#skills">SKILLS</a></h4>
+    <h4 id="link"><a href="#project">PROJECTS</a></h4>
+    <h4 id="link"><a href="#certification">CERTIFICATIONS</a></h4>
+    <h4 id="link"><a href="#contact">CONTACT</a></h4>
+</div>
+
+
+<!-- Background Transition -->
+<div class="background">
+
+<!-- SKILLS -->
+<br>
+<h1 class="heading" id="skills">SKILLS</h1>
+<div class="skillContainer">
+  <div class="qualityWrapper">
+    <div class="qualityRow">
+      <div class="quality">
+        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+          <i class="fas fa-tachometer-alt fa-2x" id="qualityIcon"></i>
+        </div></div></div></div> 
+        <h2 class="qualityTitle">Fast</h2>
+        <p class="qualityBio">Optimal code for lag free and fast load times, my highest priority.</p>
+      </div>
+      <div class="quality">
+        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+          <i class="fas fa-mobile-alt fa-2x" id="qualityIcon"></i>
+        </div></div></div></div> 
+        <h2 class="qualityTitle">Responsive</h2>
+        <p class="qualityBio">My layouts work with many devices, big or small.</p>
+      </div>
+    </div>
+    <div class="qualityRow">
+      <div class="quality">
+        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+          <i class="far fa-lightbulb fa-2x" id="qualityIcon"></i>
+        </div></div></div></div> 
+        <h2 class="qualityTitle">Intuitive</h2>
+        <p class="qualityBio">I am an advocate for easy to use, intuitive UX/UI.</p>
+      </div>
+      <div class="quality">
+        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+          <i class="fas fa-rocket fa-2x" id="qualityIcon"></i>
+        </div></div></div></div> 
+        <h2 class="qualityTitle">Dynamic</h2>
+        <p class="qualityBio">Websites don't need to be static, I love making pages come to life.</p>
+      </div>
+    </div>
+  </div>
+  <div class="techincalSkillsWrapper">
+    <div class="skillNote">
+      <h3 id="noteSkill">I use the latest web technologies to design and code beautifully simple things, and I love what I do.</h3>
+    </div>
+    <div class="skillList">
+      <h3 class="skillTitle">Languages</h3>
+      <div class="skillItems">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Python</span>
+        <span class="skill">SQL</span>
+      </div>
+      <h3 class="skillTitle">Frameworks & Libraries</h3>
+      <div class="skillItems">
+        <span class="skill">React</span>
+        <span class="skill">Redux</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">Bootstrap</span>
+        <span class="skill">jQuery</span>
+        <span class="skill">Axios</span>
+      </div>
+      <h3 class="skillTitle">Other</h3>
+      <div class="skillItems">
+        <span class="skill">GitHub</span>
+        <span class="skill">Firebase</span>
+        <span class="skill">REST APIs</span>
+        <span class="skill">Google Drive</span>
+        <span class="skill">MS Office</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <!-- PROJECTS -->
-<h1 class="title" id="project">PROJECTS</h1>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6 col-xs-12">
-      <div class="jumbotron">
-        <h1>atmosphere</h1>
-        <p id="date">November 2020</p>
-        <i class="fas fa-cloud-sun fa-6x"></i>
-        <p>Produced a React application that allows users to get realtime weather data from over 200,000 cities. Utilized the Open Weather Map API to get data from different sources such as global and local weather models and a vast network of weather stations.</p>
-        <h5>Tech Used:</h5>
-        <div class="row">
-          <div class="col-6">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>React.js</li>
-              <li>Open Weather Map API</li>
-              <li>Firebase</li>
-            </ul>
-          </div>
+<h1 class="heading" id="project">PROJECTS</h1>
+<h4 id="projectNote">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</h4>
+<div class="projectContainer">
+  <div class="projectCard">
+    <a href="https://atmosphere-forecast.web.app/" target="_blank">
+      <img src="atmosphere.jpg" alt="Avatar" id="projectImage">
+      <div class="projectInfo">
+        <div class="projectHeading">
+            <h4 class="projectName">atmosphere</h4>
+            <h5 class="projectDate">November 2020</h5>
         </div>
-        <center>
-          <a href="https://atmosphere-forecast.web.app/" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
-        </center>
+        <p class="projectBio">Get realtime weather data from over 200,000 cities.</p>
       </div>
-    </div>
-    <div class="col-lg-6 col-xs-12">
-      <div class="jumbotron">
-        <h1>PodSpot</h1>
-        <p id="date">October 2020</p>
-        <i class="fab fa-spotify fa-6x"></i>
-        <p>Collaborated with a UX Designer and Software Developer to create an application for users to listen, comment, and rate their favorite podcasts. Utilized Spotify’s Web API to fetch user data and incorporate features such as play, pause, and seek.</p>
-        <h5>Tech Used:</h5>
-        <div class="row">
-          <div class="col-6">
-            <ul>
-              <li>HTML/CSS</li>
-              <li>JavaScript</li>
-              <li>React.js</li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>Spotify Web API</li>
-              <li>Git Version Control</li>
-              <li>Firebase</li>
-            </ul>
-          </div>
-        </div>
-        <center>
-          <a href="https://podspot.live/" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
-        </center>
-      </div>
-    </div>
-    <div class="col-lg-6 col-xs-12">
-      <div class="jumbotron">
-        <h1>execute.</h1>
-        <p id="date">October 2020</p>
-        <i class="fas fa-list-alt fa-6x"></i>
-        <p>A React based project where I developed a to-do list application to plan, organize, and execute. Incorporated Redux Thunk to globally manage state across components as well as include user authentication.</p>
-        <h5>Tech Used:</h5>
-        <div class="row">
-          <div class="col-6">
-            <ul>
-              <li>HTML/CSS</li>
-              <li>JavaScript</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>React.js</li>
-              <li>Redux Thunk</li>
-              <li>Firebase</li>
-            </ul>
-          </div>
-        </div>
-        <center>
-          <a href="https://execute-ab745.web.app/" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
-        </center>
-      </div>
-    </div>
-    <div class="col-lg-6 col-xs-12">
-      <div class="jumbotron">
-        <h1>LashedByThuong</h1>
-        <p id="date">September 2020</p>
-        <i class="far fa-grin-hearts fa-6x"></i>
-        <p>My first React project where I developed an application for LashedByThuong, a lash extension service, providing an efficient way for users to learn about the service and book their online apppointments.</p>
-        <h5>Tech Used:</h5>
-        <div class="row">
-          <div class="col-6">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>Bootstrap</li>
-              <li>React.js</li>
-              <li>Firebase</li>
-            </ul>
-          </div>
-        </div>
-        <center>
-          <a href="https://lashedbythuong-ede8e.web.app/" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
-        </center>
-      </div>
-    </div>
-    <div class="col-lg-6 col-xs-12">
-      <div class="jumbotron">
-        <h1>JJ Noodles</h1>
-        <p id="date">June 2020</p>
-        <i class="fas fa-utensils fa-6x"></i>
-        <p>Developed an application for JJ Noodles, a San Jose based pop-up shop dedicated to serving the best lobster noodles in the Bay Area, in order to provide responsiveness and efficiency in taking customer orders.</p>
-        <h5>Tech Used:</h5>
-        <div class="row">
-          <div class="col-6">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>Bootstrap</li>
-              <li>jQuery</li>
-              <li>Firebase</li>
-            </ul>
-          </div>
-        </div>
-        <center>
-          <a href="https://jjnoodles-d4df0.web.app/" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
-        </center>
-      </div>
-    </div>
-    <div class="col-lg-6 col-xs-12">
-      <div class="jumbotron">
-        <h1 id="rowspace">UCSC UX Design</h1>
-        <p id="date">March 2020</p>
-        <i class="fas fa-graduation-cap fa-6x"></i>
-        <p>Redesigned the UC Santa Cruz Baskin School of Engineering Undergraduate website with a more simplified approach, while still providing responsiveness and efficiency, to address the needs of the users.</p>
-        <h5>Skills Learned:</h5>
-        <div class="row">
-          <div class="col-6">
-            <ul>
-              <li>UX Design</li>
-              <li>Design Research</li>
-              <li>User Studies</li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>Prototyping</li>
-            </ul>
-          </div>
-        </div>
-        <center>
-          <a href="https://xd.adobe.com/view/556923c0-1ff5-4a57-7971-6f88da0f99d4-2358/?fullscreen" class="btn btn-dark" id="button" target="_blank"><strong>Live Preview</strong></a>
-        </center>
-      </div>
-    </div>
+    </a>
   </div>
+  <div class="projectCard">
+    <a href="https://podspot.live/" target="_blank">
+      <img src="podspot.jpg" alt="Avatar" id="projectImage">
+      <div class="projectInfo">
+        <div class="projectHeading">
+            <h4 class="projectName">PodSpot</h4>
+            <h5 class="projectDate">October 2020</h5>
+        </div>
+        <p class="projectBio">Listen, comment, and rate your favorite podcasts.</p>
+      </div>
+    </a>
+  </div>
+  <div class="projectCard">
+    <a href="https://execute-ab745.web.app/" target="_blank">
+      <img src="execute.jpg" alt="Avatar" id="projectImage">
+      <div class="projectInfo">
+        <div class="projectHeading">
+            <h4 class="projectName">execute.</h4>
+            <h5 class="projectDate">October 2020</h5>
+        </div>
+        <p class="projectBio">A to-do list application to plan, organize, and execute.</p>
+      </div>
+    </a>
+  </div>
+  <div class="projectCard">
+    <a href="https://lashedbythuong-ede8e.web.app/" target="_blank">
+      <img src="lash.jpg" alt="Avatar" id="projectImage">
+      <div class="projectInfo">
+        <div class="projectHeading">
+            <h4 class="projectNameLash">Lashed By Thuong</h4>
+            <h5 class="projectDate">September 2020</h5>
+        </div>
+        <p class="projectBio">Commited to providing high-end and professional lash extension services, guarenteeing the best results.</p>
+      </div>
+    </a>
+  </div>
+  <div class="projectCard">
+    <a href="https://jjnoodles-d4df0.web.app/" target="_blank">
+      <img src="jj.jpg" alt="Avatar" id="projectImage">
+      <div class="projectInfo">
+        <div class="projectHeading">
+            <h4 class="projectName">JJNoodles</h4>
+            <h5 class="projectDate">June 2020</h5>
+        </div>
+        <p class="projectBio">San Jose based pop-up shop dedicated to serving the best lobster noodles in the Bay Area.</p>
+      </div>
+    </a>
+  </div>
+  <div class="projectCard">
+    <a href="https://xd.adobe.com/view/556923c0-1ff5-4a57-7971-6f88da0f99d4-2358/?fullscreen" target="_blank">
+      <img src="ucsc.jpg" alt="Avatar" id="projectImage">
+      <div class="projectInfo">
+        <div class="projectHeading">
+            <h4 class="projectName">UCSC UX Design</h4>
+            <h5 class="projectDate">March 2020</h5>
+        </div>
+        <p class="projectBio">Redesigned the Baskin School of Engineering website with a more simplified approach.</p>
+      </div>
+    </a>
+  </div>
+
 </div>
+
+
 
 <!-- CERTIFICATIONS -->
-<h1 class="title" id="certification">CERTIFICATIONS</h1>
-<div class="container">
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col-lg-6 col-12">
-        <h2>React.js Certification</h2>
-        <p>Udemy React - The Complete Guide Bootcamp</p>
-        <img src="react.jpg" id="cert" >
-      </div>
-      <div class="col-lg-6 col-12">
-        <h2>Web Developer Certification</h2>
-        <p>Udemy Full Stack Web Developer Bootcamp</p>
-        <img src="webcert.jpg" id="cert" >
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-lg-6 col-12">
-        <h2>Python 3 Certification</h2>
-        <p>Udemy Complete Python Coding Bootcamp 2020</p>
-          <img src="python.jpg" id="cert" >
-      </div>
-      <div class="col-lg-6 col-12">
-        <h2 id="rowspace">PostgreSQL Certification</h2>
-        <p>Udemy The Complete SQL Bootcamp 2020</p>
-        <img src="SQL.jpg" id="cert" >
-      </div>
-    </div>
+<h1 class="heading" id="certification">CERTIFICATIONS</h1>
+<h4 class="certNote">Coding is the langauge of the future, and I believe everyone can learn it.</h4>
+<div class="certContainer">
+  <div class="certItem">
+    <img src="react.jpg" id="cert" >
+    <h2 class="certTitle">React.js Certification</h2>
+    <p class="certBio">Udemy React - The Complete Guide (incl Hooks, React Router, Redux) Bootcamp</p>
+  </div>
+  <div class="certItem">
+    <img src="webcert.jpg" id="cert" >
+    <h2 class="certTitle">Web Developer Certification</h2>
+    <p class="certBio">Udemy Python and Django Full Stack Web Developer Bootcamp</p>
+  </div>
+  <div class="certItem">
+    <img src="python.jpg" id="cert" >
+    <h2 class="certTitle">Python 3 Certification</h2>
+    <p class="certBio">Udemy Complete Python Bootcamp: Go from zero to hero in Python 3</p>
+  </div>
+  <div class="certItem">
+    <img src="SQL.jpg" id="cert" >
+    <h2 class="certTitle">PostgreSQL Certification</h2>
+    <p class="certBio">Udemy The Complete SQL Bootcamp</p>
   </div>
 </div>
 
 
-<!-- CONTACT -->
-<h1 class="title" id="contact">CONTACT</h1>
-<div class="container">
-  <div class="jumbotron">
-      <h2>Thanks for viewing my portfolio!</h2>
-      <p>Let me know if you have any questions, concerns, or are interested in working together! Feel free to contact me at:</p>
-      <br>
-        <div class="row" id="icons">
-          <div class="col-xl-3 col-6">
-            <i class="fas fa-phone-square fa-8x"></i>
-            <p>1(408)250-4182</p>
-          </div>
-          <div class="col-xl-3 col-6">
-            <i class="fas fa-envelope-square fa-8x"></i>
-            <p><a href="mailto:johnnynguyentech@gmail.com" id="link">Email</a></p>
-          </div>
-          <div class="col-xl-3 col-6">
-            <i class="fab fa-linkedin fa-8x"></i>
-            <p><a href="https://www.linkedin.com/in/johnny-nguyen-tech/" id="link" target="_blank">LinkedIn</a></p>
-          </div>
-          <div class="col-xl-3 col-6">
-            <i class="fab fa-github-square fa-8x"></i>
-            <p><a href="https://github.com/johnnynguyentech" id="link" target="_blank">GitHub</a></p>
-          </div>
-        </div>
-  </div>
+
+
+<!-- Background End -->
+  <br id="extendEnd">
 </div>
-<br>
 
-
+<!-- FOOTER -->
+<div class="footer" id="contact">
+  <center>
+    <a href="#home"><i class="fas fa-chevron-circle-up fa-4x" id="goUpIcon"></i></a>
+    <h4 id="thanks">Have a question or interested in working together?</h4>
+    <p id="thanks2">Let's get in contact and queue up a chat. I’ll buy the coffee.</p> 
+    <div class="contactWrapper">
+      <a href="Resume_Nguyen.pdf" target="_blank"><i id="logo" class="fas fa-sticky-note fa-4x"></i></a>
+      <a href="mailto:johnnynguyentech@gmail.com"><i id="logo" class="fas fa-envelope-square fa-4x"></i></a>
+      <a href="https://www.linkedin.com/in/johnny-nguyen-tech/" target="_blank"><i id="logo" class="fab fa-linkedin fa-4x"></i></a>
+      <a href="https://github.com/johnnynguyentech" target="_blank"><i id="logo" class="fab fa-github-square fa-4x"></i></a>
+    </div>
+    <div class="copyright">
+      <p id="copyName">JOHNNY NGUYEN</p>
+      <p> ©2021</p>
+    </div>
+  </center>
+</div>
 
 <!-- JS SCRIPT -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-<!-- CLOSING TAGS -->
-  </body>
+
+  <!-- CLOSING TAGS -->
+</body>
 </html>
