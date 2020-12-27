@@ -183,6 +183,10 @@
   border-radius: 0 0 15px 15px;
 }
 
+#status{
+  text-align: center;
+}
+
 /* MOBILE */
 @media only screen
   and (max-device-width: 600px) {
