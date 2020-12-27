@@ -1,260 +1,313 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Johnny Nguyen | Frontend Developer</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="icon.jpg">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/7a7c42df77.js" crossorigin="anonymous"></script>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Johnny Nguyen | Frontend Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="images/icon.jpg">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a7c42df77.js" crossorigin="anonymous"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<!-- HOME -->
-<br id="home">
-<h1 class="name">JOHNNY NGUYEN</h1>
-<div class="home">
-  <h5 id="bio">Hello! My name is Johnny Nguyen, and I am a recent graduate from UC Santa Cruz with a bachelor's degree in Technology and Information Management. As a front end developer, I have a diverse set of skills, ranging from digital and inbound marketing, to HTML + CSS + JavaScript, all the way to technology-focused creativity.</h5>
-  <h5 id="bio">With a passion for building scalable UI applications using the latest web technologies, I constantly find myself curious as to how different aspects of technology come together to make one coherent function. This is what keeps me up at night, the belief of the power of programming to transform and improve the lives of people around the world.</h5>
-  <center>
-    <div class="headshotWrapper">
-      <img src="headshot.jpg" alt="Avatar" id="headshot">
-    </div>
-    <a href="Resume_Nguyen.pdf" target="_blank"><button id="resumeBtn">RESUME</button></a>
-    <div class="seeMoreBtn">
-      <a href="#skills"><i class="fas fa-angle-double-down fa-4x" id="moreBtn"></i></a>
-    </div>
-  </center>
-</div>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<!-- NAVBAR -->
-<div class="navigation">
-    <a href="#home" style="text-decoration: none;"><h4 id="link">HOME</h4></a>
-    <a href="#skills" style="text-decoration: none;"><h4 id="link">SKILLS</h4></a>
-    <a href="#project" style="text-decoration: none;"><h4 id="link">PROJECTS</h4></a>
-   <a href="#certification" style="text-decoration: none;"><h4 id="link">CERTIFICATIONS</h4></a>
-   <a href="#contact" style="text-decoration: none;"><h4 id="link">CONTACT</h4></a>
-</div>
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+              <!-- <h1 id="j">J</h1> -->
+              <!-- logo here add css 1463 -->
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>JOHNNY NGUYEN</h1>
+								<p>Frontend Developer</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
 
+				<!-- Main -->
+					<div id="main">
 
-<!-- Background Transition -->
-<div class="background">
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+                <!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
+                <center>
+                  <div class="headshotWrapper">
+                    <img src="images/headshot.jpg" alt="Avatar" id="headshot">
+                  </div>
+                </center>
+								<p>Hello! My name is Johnny Nguyen, and I am a recent graduate from UC Santa Cruz with a bachelor's degree in Technology and Information Management. As a front end developer, I have a diverse set of skills, ranging from digital and inbound marketing, to HTML + CSS + JavaScript, all the way to technology-focused creativity.</p>
+								<p>With a passion for building scalable UI applications using the latest web technologies, I constantly find myself curious as to how different aspects of technology come together to make one coherent function. This is what keeps me up at night, the belief of the power of programming to transform and improve the lives of people around the world.</p>
+                <center>
+                  <button id="resumeBtn"><a href="Resume_Nguyen.pdf" target="_blank">RESUME</a></button>
+                </center>
+              </article>
 
-<!-- SKILLS -->
-<br>
-<h1 class="heading" id="skills">SKILLS</h1>
-<div class="skillContainer">
-  <div class="qualityWrapper">
-    <div class="qualityRow">
-      <div class="quality">
-        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-          <i class="fas fa-tachometer-alt fa-2x" id="qualityIcon"></i>
-        </div></div></div></div> 
-        <h2 class="qualityTitle">Fast</h2>
-        <p class="qualityBio">Optimal code for lag free and fast load times, my highest priority.</p>
-      </div>
-      <div class="quality">
-        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-          <i class="fas fa-mobile-alt fa-2x" id="qualityIcon"></i>
-        </div></div></div></div> 
-        <h2 class="qualityTitle">Responsive</h2>
-        <p class="qualityBio">My layouts work with many devices, big or small.</p>
-      </div>
-    </div>
-    <div class="qualityRow">
-      <div class="quality">
-        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-          <i class="far fa-lightbulb fa-2x" id="qualityIcon"></i>
-        </div></div></div></div> 
-        <h2 class="qualityTitle">Intuitive</h2>
-        <p class="qualityBio">I am an advocate for easy to use, intuitive UX/UI.</p>
-      </div>
-      <div class="quality">
-        <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
-          <i class="fas fa-rocket fa-2x" id="qualityIcon"></i>
-        </div></div></div></div> 
-        <h2 class="qualityTitle">Dynamic</h2>
-        <p class="qualityBio">Websites don't need to be static, I love making pages come to life.</p>
-      </div>
-    </div>
-  </div>
-  <div class="techincalSkillsWrapper">
-    <div class="skillNote">
-      <h3 id="noteSkill">I use the latest web technologies to design and code beautifully simple things, and I love what I do.</h3>
-    </div>
-    <div class="skillList">
-      <h3 class="skillTitle">Languages</h3>
-      <div class="skillItems">
-        <span class="skill">HTML</span>
-        <span class="skill">CSS</span>
-        <span class="skill">JavaScript</span>
-        <span class="skill">Python</span>
-        <span class="skill">SQL</span>
-      </div>
-      <h3 class="skillTitle">Frameworks & Libraries</h3>
-      <div class="skillItems">
-        <span class="skill">React</span>
-        <span class="skill">Redux</span>
-        <span class="skill">Node.js</span>
-        <span class="skill">Bootstrap</span>
-        <span class="skill">jQuery</span>
-        <span class="skill">Axios</span>
-      </div>
-      <h3 class="skillTitle">Other</h3>
-      <div class="skillItems">
-        <span class="skill">GitHub</span>
-        <span class="skill">Firebase</span>
-        <span class="skill">REST APIs</span>
-        <span class="skill">Google Drive</span>
-        <span class="skill">MS Office</span>
-      </div>
-    </div>
-  </div>
-</div>
+						<!-- Skills -->
+							<article id="skills">
+                <h2 class="major">Skills</h2>
+                <p>I use the latest web technologies to design and code simply beautiful things, and I love what I do.</p>
+                <div class="qualityContainer">
+                  <div class="quality">
+                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+                      <i class="fas fa-tachometer-alt fa-1x" id="qualityIcon"></i>
+                    </div></div></div></div> 
+                    <h2 class="qualityTitle">Fast</h2>
+                    <p class="qualityBio">Optimal code for lag free and fast load times, my highest priority.</p>
+                  </div>
+                  <div class="quality">
+                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+                      <i class="fas fa-mobile-alt fa-1x" id="qualityIcon"></i>
+                    </div></div></div></div> 
+                    <h2 class="qualityTitle">Responsive</h2>
+                    <p class="qualityBio">My layouts work with many devices, big or small.</p>
+                  </div>
+                  <div class="quality">
+                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+                      <i class="far fa-lightbulb fa-1x" id="qualityIcon"></i>
+                    </div></div></div></div> 
+                    <h2 class="qualityTitle">Intuitive</h2>
+                    <p class="qualityBio">I am an advocate for easy to use, intuitive UX/UI.</p>
+                  </div>
+                  <div class="quality">
+                    <div class="hexagon"><div class="hexagon2"><div class="hexagon3"><div class="hexagon4">
+                      <i class="fas fa-rocket fa-1x" id="qualityIcon"></i>
+                    </div></div></div></div> 
+                    <h2 class="qualityTitle">Dynamic</h2>
+                    <p class="qualityBio">Websites don't need to be static, I love making pages come to life.</p>
+                  </div>
+                </div>
+                <div class="skillContainer">
+                  <h3 class="skillTitle">Languages</h3>
+                  <div class="skillItems">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">Python</span>
+                    <span class="skill">SQL</span>
+                  </div>
+                  <h3 class="skillTitle">Frameworks & Libraries</h3>
+                  <div class="skillItems">
+                    <span class="skill">React</span>
+                    <span class="skill">Redux</span>
+                    <span class="skill">Node.js</span>
+                    <span class="skill">Bootstrap</span>
+                    <span class="skill">jQuery</span>
+                    <span class="skill">Axios</span>
+                  </div>
+                  <h3 class="skillTitle">Other</h3>
+                  <div class="skillItems">
+                    <span class="skill">GitHub</span>
+                    <span class="skill">Firebase</span>
+                    <span class="skill">REST APIs</span>
+                    <span class="skill">Google Drive</span>
+                    <span class="skill">MS Office</span>
+                  </div>
+                </div>
+							</article>
 
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                <div class="projectContainer">
+                  <div class="projectCard">
+                    <a href="https://atmosphere-forecast.web.app/" target="_blank">
+                      <img src="images/atmosphere.jpg" alt="Project" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">atmosphere</h4>
+                            <h5 class="projectDate">November 2020</h5>
+                        </div>
+                        <p class="projectBio">Get realtime weather data from over 200,000 cities.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://podspot.live/" target="_blank">
+                      <img src="images/podspot.jpg" alt="Project" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">PodSpot</h4>
+                            <h5 class="projectDate">October 2020</h5>
+                        </div>
+                        <p class="projectBio">Listen, comment, and rate your favorite podcasts.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://execute-ab745.web.app/" target="_blank">
+                      <img src="images/execute.jpg" alt="Project" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">execute.</h4>
+                            <h5 class="projectDate">October 2020</h5>
+                        </div>
+                        <p class="projectBio">A to-do list application to plan, organize, and execute.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://lashedbythuong-ede8e.web.app/" target="_blank">
+                      <img src="images/lash.jpg" alt="Project" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">Lashed By Thuong</h4>
+                            <h5 class="projectDate">September 2020</h5>
+                        </div>
+                        <p class="projectBio">Commited to providing high-end professional lash extension services, guarenteeing the best results.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://jjnoodles-d4df0.web.app/" target="_blank">
+                      <img src="images/jj.jpg" alt="Project" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">JJNoodles</h4>
+                            <h5 class="projectDate">June 2020</h5>
+                        </div>
+                        <p class="projectBio">San Jose based pop-up shop dedicated to serving the best lobster noodles in the Bay Area.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://xd.adobe.com/view/556923c0-1ff5-4a57-7971-6f88da0f99d4-2358/?fullscreen" target="_blank">
+                      <img src="images/ucsc.jpg" alt="Project" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">UCSC UX Design</h4>
+                            <h5 class="projectDate">March 2020</h5>
+                        </div>
+                        <p class="projectBio">Redesigned the Baskin School of Engineering website with a more simplified approach.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </article>
 
+            <!-- Certifications -->
+							<article id="certifications">
+                <h2 class="major">Certifications</h2>
+                <p>Coding is the langauge of the future, and I believe everyone can learn it.</p>
+                <div class="projectContainer">
+                  <div class="projectCard">
+                    <a href="https://www.udemy.com/certificate/UC-7b1ca7f4-eb79-4c7a-8a3f-262688adf22b//" target="_blank">
+                      <img src="images/react.jpg" alt="Certification" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">React</h4>
+                            <h5 class="projectDate">October 2020</h5>
+                        </div>
+                        <p class="projectBio">Udemy React - The Complete Guide (incl Hooks, React Router, Redux) Bootcamp</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://www.udemy.com/certificate/UC-13cb3863-1c80-4ab1-a469-b26e626b89fc/" target="_blank">
+                      <img src="images/webcert.jpg" alt="Certification" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">Web Development</h4>
+                            <h5 class="projectDate">May 2020</h5>
+                        </div>
+                        <p class="projectBio">Udemy Python and Django Full Stack Web Developer Bootcamp</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://www.udemy.com/certificate/UC-58f0d9b5-faa3-4f1a-8fc6-83b64850c8d8/" target="_blank">
+                      <img src="images/python.jpg" alt="Certification" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">Python</h4>
+                            <h5 class="projectDate">March 2020</h5>
+                        </div>
+                        <p class="projectBio">Udemy Complete Python Bootcamp: Go from zero to hero in Python 3</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectCard">
+                    <a href="https://www.udemy.com/certificate/UC-936b9be2-d774-46b2-a45b-a1508d94233c/" target="_blank">
+                      <img src="images/python.jpg" alt="Certification" id="projectImage">
+                      <div class="projectInfo">
+                        <div class="projectHeading">
+                            <h4 class="projectName">SQL</h4>
+                            <h5 class="projectDate">March 2020</h5>
+                        </div>
+                        <p class="projectBio">Udemy The Complete SQL Bootcamp</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+							</article>
 
-<!-- PROJECTS -->
-<h1 class="heading" id="project">PROJECTS</h1>
-<h4 id="projectNote">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</h4>
-<div class="projectContainer">
-  <div class="projectCard">
-    <a href="https://atmosphere-forecast.web.app/" target="_blank">
-      <img src="atmosphere.jpg" alt="Avatar" id="projectImage">
-      <div class="projectInfo">
-        <div class="projectHeading">
-            <h4 class="projectName">atmosphere</h4>
-            <h5 class="projectDate">November 2020</h5>
-        </div>
-        <p class="projectBio">Get realtime weather data from over 200,000 cities.</p>
-      </div>
-    </a>
-  </div>
-  <div class="projectCard">
-    <a href="https://podspot.live/" target="_blank">
-      <img src="podspot.jpg" alt="Avatar" id="projectImage">
-      <div class="projectInfo">
-        <div class="projectHeading">
-            <h4 class="projectName">PodSpot</h4>
-            <h5 class="projectDate">October 2020</h5>
-        </div>
-        <p class="projectBio">Listen, comment, and rate your favorite podcasts.</p>
-      </div>
-    </a>
-  </div>
-  <div class="projectCard">
-    <a href="https://execute-ab745.web.app/" target="_blank">
-      <img src="execute.jpg" alt="Avatar" id="projectImage">
-      <div class="projectInfo">
-        <div class="projectHeading">
-            <h4 class="projectName">execute.</h4>
-            <h5 class="projectDate">October 2020</h5>
-        </div>
-        <p class="projectBio">A to-do list application to plan, organize, and execute.</p>
-      </div>
-    </a>
-  </div>
-  <div class="projectCard">
-    <a href="https://lashedbythuong-ede8e.web.app/" target="_blank">
-      <img src="lash.jpg" alt="Avatar" id="projectImage">
-      <div class="projectInfo">
-        <div class="projectHeading">
-            <h4 class="projectNameLash">Lashed By Thuong</h4>
-            <h5 class="projectDate">September 2020</h5>
-        </div>
-        <p class="projectBio">Commited to providing high-end and professional lash extension services, guarenteeing the best results.</p>
-      </div>
-    </a>
-  </div>
-  <div class="projectCard">
-    <a href="https://jjnoodles-d4df0.web.app/" target="_blank">
-      <img src="jj.jpg" alt="Avatar" id="projectImage">
-      <div class="projectInfo">
-        <div class="projectHeading">
-            <h4 class="projectName">JJNoodles</h4>
-            <h5 class="projectDate">June 2020</h5>
-        </div>
-        <p class="projectBio">San Jose based pop-up shop dedicated to serving the best lobster noodles in the Bay Area.</p>
-      </div>
-    </a>
-  </div>
-  <div class="projectCard">
-    <a href="https://xd.adobe.com/view/556923c0-1ff5-4a57-7971-6f88da0f99d4-2358/?fullscreen" target="_blank">
-      <img src="ucsc.jpg" alt="Avatar" id="projectImage">
-      <div class="projectInfo">
-        <div class="projectHeading">
-            <h4 class="projectName">UCSC UX Design</h4>
-            <h5 class="projectDate">March 2020</h5>
-        </div>
-        <p class="projectBio">Redesigned the Baskin School of Engineering website with a more simplified approach.</p>
-      </div>
-    </a>
-  </div>
+						<!-- Contact -->
+							<article id="contact">
+                <h2 class="major">Contact</h2>
+                <p>Have a question or interested in working together?<br/>We should queue up a chat. I’ll buy the coffee.</p>
+								<!-- <form method="post" action="mailto:johnnynguyentech@gmail.com" enctype=”multipart/form-data” name=”EmailTestForm”>
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form> -->
+								<ul class="icons">
+									<li><a href="Resume_Nguyen.pdf" target="_blank" class="icon solid far fa-file"><span class="label">Resume</span></a></li>
+									<li><a href="mailto:johnnynguyentech@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://www.linkedin.com/in/johnny-nguyen-tech/" target="_blank" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/johnnynguyentech" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+              </article>
+            <!-- More Content Here -->
 
-</div>
+					</div>
 
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; JOHNNY NGUYEN 2021</p>
+					</footer>
 
+			</div>
 
-<!-- CERTIFICATIONS -->
-<h1 class="heading" id="certification">CERTIFICATIONS</h1>
-<h4 class="certNote">Coding is the langauge of the future, and I believe everyone can learn it.</h4>
-<div class="certContainer">
-  <div class="certItem">
-    <img src="react.jpg" id="cert" >
-    <h2 class="certTitle">React.js Certification</h2>
-    <p class="certBio">Udemy React - The Complete Guide (incl Hooks, React Router, Redux) Bootcamp</p>
-  </div>
-  <div class="certItem">
-    <img src="webcert.jpg" id="cert" >
-    <h2 class="certTitle">Web Developer Certification</h2>
-    <p class="certBio">Udemy Python and Django Full Stack Web Developer Bootcamp</p>
-  </div>
-  <div class="certItem">
-    <img src="python.jpg" id="cert" >
-    <h2 class="certTitle">Python 3 Certification</h2>
-    <p class="certBio">Udemy Complete Python Bootcamp: Go from zero to hero in Python 3</p>
-  </div>
-  <div class="certItem">
-    <img src="SQL.jpg" id="cert" >
-    <h2 class="certTitle">PostgreSQL Certification</h2>
-    <p class="certBio">Udemy The Complete SQL Bootcamp</p>
-  </div>
-</div>
+		<!-- BG -->
+			<div id="bg"></div>
 
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-
-<!-- Background End -->
-  <br id="extendEnd">
-</div>
-
-<!-- FOOTER -->
-<div class="footer" id="contact">
-  <center>
-    <a href="#home"><i class="fas fa-chevron-circle-up fa-4x" id="goUpIcon"></i></a>
-    <h4 id="thanks">Have a question or interested in working together?</h4>
-    <p id="thanks2">Let's get in contact and queue up a chat. I’ll buy the coffee.</p> 
-    <div class="contactWrapper">
-      <a href="Resume_Nguyen.pdf" target="_blank"><i id="logo" class="fas fa-sticky-note fa-4x"></i></a>
-      <a href="mailto:johnnynguyentech@gmail.com"><i id="logo" class="fas fa-envelope-square fa-4x"></i></a>
-      <a href="https://www.linkedin.com/in/johnny-nguyen-tech/" target="_blank"><i id="logo" class="fab fa-linkedin fa-4x"></i></a>
-      <a href="https://github.com/johnnynguyentech" target="_blank"><i id="logo" class="fab fa-github-square fa-4x"></i></a>
-    </div>
-    <div class="copyright">
-      <p id="copyName">JOHNNY NGUYEN</p>
-      <p> ©2021</p>
-    </div>
-  </center>
-</div>
-
-<!-- JS SCRIPT -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-
-  <!-- CLOSING TAGS -->
-</body>
+	</body>
 </html>
