@@ -191,6 +191,13 @@
   text-align: center;
 }
 
+.projectCardNoLink{
+  border-radius: 5px;
+  border: 1px solid  #4a4a4a;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
 /* MOBILE */
 @media only screen
   and (max-device-width: 600px) {
@@ -203,7 +210,7 @@
     .projectCard{
       margin: 12px 0 12px 0;
     }
-  }
+}
 
 
 
