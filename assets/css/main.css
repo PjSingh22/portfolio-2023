@@ -183,6 +183,10 @@
   border-radius: 0 0 15px 15px;
 }
 
+#message{
+  resize: vertical;
+}
+
 #status{
   text-align: center;
 }
