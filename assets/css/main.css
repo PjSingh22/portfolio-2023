@@ -110,17 +110,12 @@
 
 .skill{
   color: rgba(27, 31, 34, 0.85);
-  background-color: #d1e3ff;
+  background-color: #d9d9d9;
   font-weight: 500;
   font-size: 16px;
   margin: 5px;
-  padding: 2px 15px;
+  padding: 1px 15px;
   border-radius: 30px;
-  transition: 0.3s;
-}
-
-.skill:hover{
-  transform: translateY(-7px);
 }
 
 /* PROJECTS */
