@@ -28,11 +28,12 @@
   display: grid;
   justify-content: center;
   grid-template-columns: auto auto;
+  margin: 0 56px;
 }
 
 .quality{
   text-align: center;
-  padding: 16px 30px;
+  padding: 14px 36px;
 }
 
 #qualityIcon{
@@ -71,7 +72,7 @@
 .qualityTitle{
   color: #d9d9d9;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 2px;
   text-align: left;
@@ -81,13 +82,14 @@
 .qualityBio{
   color: #d9d9d9;
   text-align: right;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
+  line-height: 1.2;
 }
 
 .skillContainer{
-  margin-top: 28px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 30px;
 }
 
@@ -203,6 +205,7 @@
   and (max-device-width: 600px) {
     .qualityContainer{
       display: block;
+      margin: 0px;
     }
     .projectContainer{
       display: block;
