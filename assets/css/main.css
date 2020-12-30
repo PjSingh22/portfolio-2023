@@ -42,28 +42,28 @@
 }
 
 .hexagon{
-  background-color: #d1e3ff;
+  background-color: white;
   display: inline-block;
   height: 80px;
   width: 47px;
 }
 
 .hexagon2{
-  background-color:#d1e3ff;
+  background-color: white;
   height: 80px;
   width: 47px;
   transform: rotateZ(60deg);
 }
 
 .hexagon3{
-  background-color: #d1e3ff;
+  background-color: white;
   height: 80px;
   width: 47px;
   transform: rotateZ(60deg);
 }
 
 .hexagon4{
-  background-color:#d1e3ff;
+  background-color:white;
   transform: rotateZ(240deg);
   height: 80px;
   width: 47px;
