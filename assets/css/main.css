@@ -42,28 +42,28 @@
 }
 
 .hexagon{
-  background-color: white;
+  background-color: #d9d9d9;
   display: inline-block;
   height: 80px;
   width: 47px;
 }
 
 .hexagon2{
-  background-color: white;
+  background-color: #d9d9d9;
   height: 80px;
   width: 47px;
   transform: rotateZ(60deg);
 }
 
 .hexagon3{
-  background-color: white;
+  background-color: #d9d9d9;
   height: 80px;
   width: 47px;
   transform: rotateZ(60deg);
 }
 
 .hexagon4{
-  background-color:white;
+  background-color: #d9d9d9;
   transform: rotateZ(240deg);
   height: 80px;
   width: 47px;
@@ -109,8 +109,9 @@
 }
 
 .skill{
-  color: rgba(27, 31, 34, 0.85);
-  background-color: #d9d9d9;
+  color: white;
+  background-color:  rgba(27, 31, 34, 0.85);
+  border: 1px solid white;
   font-weight: 500;
   font-size: 16px;
   margin: 5px;
