@@ -3,7 +3,7 @@
 
 /* HOME */
 #headshot {
-  border-radius: 50%;
+  border-radius: 25%;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -1474,7 +1474,7 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("../../images/bg.jpg");
+  background-image:linear-gradient(rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/linus-mimietz-gvptKmonylk-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1679,7 +1679,11 @@ body.is-preload #bg:before {
 
 #header nav ul li {
   padding-left: 0;
-  border-left: solid 1px #ffffff;
+  /* border-left: solid 1px #ffffff; */
+}
+
+nav > ul > li {
+  border-right: solid 1px #ffffff;
 }
 
 #header nav ul li:first-child {
@@ -1711,7 +1715,7 @@ body.is-preload #bg:before {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(50% - 1px);
+  /* left: calc(50% - 1px); */
   width: 1px;
   height: 100%;
   background: #ffffff;
