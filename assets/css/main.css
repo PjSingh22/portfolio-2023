@@ -1,6 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+#certifications, #certifications > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* HOME */
 #headshot {
   border-radius: 25%;
